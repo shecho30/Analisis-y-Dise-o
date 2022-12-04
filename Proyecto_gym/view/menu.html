@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Gybero</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="menu.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="rutinas.html">Rutinas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="calendario.html">Calendario</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="perfil.html">perfil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Administrador</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <a class="btn btn-outline-success" href="../index.html" type="submit">Log out</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-md-auto">
+                <h2>Registro de Usuario</h1>
+            </div>
+        </div>
+
+        <div class="span"></div>
+
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Clase</th>
+                <th scope="col">Instructor</th>
+                <th scope="col">Descripción</th>
+                <th scope="col">Horario</th>
+                <th scope="col">Accion</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Crosfit</td>
+                <td>Otto</td>
+                <td>Trabajo general de todo el cuerpo</td>
+                <td>8:00 - 9:00</td>
+                <td><button class="btn btn-primary" onclick='swal("Se a registrado a la clase");'>Inscripción</button></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Calistenia</td>
+                <td>Brandon</td>
+                <td>trabjo de fuerza con tu propio peso</td>
+                <td>10:00 - 11:00</td>
+                <td><button class="btn btn-primary" onclick='swal("Se a registrado a la clase");'>Inscripción</button></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Funcional</td>
+                <td>Alexandra</td>
+                <td>Trabjo de resistencia multi funcional</td>
+                <td>17:00 - 18:00</td>
+                <td><button class="btn btn-secondary" onclick='swal("Cancelo el registro a la clase");'>Registrado</button></td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>TRX</td>
+                <td>Diego</td>
+                <td>Trabjo de resistencia usando TRX</td>
+                <td>18:00 - 19:00</td>
+                <td><button class="btn btn-primary" onclick='swal("Se a registrado a la clase");'>Inscripción</button></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="span"></div>
+
+          <div class="footer-copyright text-center py-3">© 2021 Copyright:
+              <a href="#"> PDP2.com</a>
+            </div>
+
+      </div>
+</body>
+</html>
